@@ -7,7 +7,7 @@
 
     @include abstracts.screen(lg) {
         gap: 10px;
-        margin-left: auto;
+        margin-left: 600px;
     }
 
     @include abstracts.screen(md) {
