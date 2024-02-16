@@ -23,18 +23,20 @@
         // padding-left: 8px;
         margin: 30px 0px 20px 0px;
         font-size: 3.4rem;
-        font-weight: bold;
-
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
         line-height: 140%;
         color: #0058c0;
         @include abstracts.screen(lg) {
             font-size: 2rem;
-            font-weight: bold;
+            font-weight: 600;
             margin: 15px 0px 10px 0px;
+            text-align: center;
         }
         @include abstracts.screen(md) {
             font-size: 1.7rem;
-            font-weight: bold;
+            font-weight: 600;
+            text-align: center;
 
             margin: 15px 0px 5px 0px;
         }
@@ -53,9 +55,7 @@
     padding: 20px 20px;
     border-radius: 12px;
     background: #ebebeb;
-    box-shadow: 6px 7px 11px -6px rgba(10, 30, 173, 0.49);
-    -webkit-box-shadow: 6px 7px 11px -6px rgba(10, 30, 173, 0.49);
-    -moz-box-shadow: 6px 7px 11px -6px rgba(10, 30, 173, 0.49);
+    transition: 0.5s;
 
     &__thumb {
         margin-bottom: 10px;
@@ -65,9 +65,10 @@
     }
     &__title {
         margin-bottom: 8px;
-        font-size: 2.4rem;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+
         line-height: 140%;
         text-align: center;
         color: #333;
@@ -91,6 +92,12 @@
     }
 }
 
+.hoveritem:hover .cate-item {
+    box-shadow: 10px 11px 14px -12px rgba(0, 0, 0, 0.53);
+    -webkit-box-shadow: 10px 11px 14px -12px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 10px 11px 14px -12px rgba(0, 0, 0, 0.53);
+}
+
 .home__cate {
     --grid-gutter-y: 20px;
     --grid-gutter-x: 20px;
@@ -104,10 +111,11 @@
 
 .ghichu {
     margin-bottom: 10px;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 1.6rem;
+    font-weight: 500;
     line-height: 150%;
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
     text-align: center;
     color: #333;
 }
