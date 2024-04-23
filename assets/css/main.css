@@ -1462,6 +1462,9 @@ html {
     position: initial;
     display: block;
   }
+  .navbar__item:hover .dropdown:hover .dropdown {
+    display: none;
+  }
 }
 .navbar__link {
   height: 50px;

@@ -120,6 +120,9 @@
             &:hover .dropdown {
                 position: initial;
                 display: block;
+                &:hover .dropdown {
+                    display: none;
+                }
             }
 
             width: 100%;
