@@ -1501,7 +1501,7 @@ html {
 }
 
 .footer__desc {
-  padding: 20px 0px 20px 20px;
+  padding: 5px 5px 5px 5px;
   color: #ebebeb;
   font-size: 1.4rem;
   font-weight: 500;
@@ -1560,7 +1560,7 @@ html {
   --inner-padding: 15px;
   position: relative;
   padding: var(--inner-padding);
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 146.667%;
   color: #fbfaeb;
@@ -1569,12 +1569,13 @@ html {
 }
 @media (max-width: 1199.98px) {
   .dropdown__inner {
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-right: 2px;
     padding-bottom: 10px;
-    margin-left: 20px;
-    font-size: 1.4rem;
+    margin-left: 15px;
+    font-size: 1.25rem;
     font-weight: 450;
-    line-height: 120%;
+    line-height: 110%;
     background: none;
     box-shadow: none;
   }

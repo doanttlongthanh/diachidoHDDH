@@ -11,7 +11,7 @@
         position: relative;
         padding: var(--inner-padding);
 
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: 600;
         line-height: 146.667%;
         color: #fbfaeb;
@@ -20,13 +20,14 @@
         box-shadow: 0px 30px 50px 20px var(--dropdown-shadow-color);
 
         @include abstracts.screen(xl) {
-            padding-top: 10px;
+            padding-top: 5px;
+            padding-right: 2px;
             padding-bottom: 10px;
 
-            margin-left: 20px;
-            font-size: 1.4rem;
+            margin-left: 15px;
+            font-size: 1.25rem;
             font-weight: 450;
-            line-height: 120%;
+            line-height: 110%;
             background: none;
             box-shadow: none;
         }
